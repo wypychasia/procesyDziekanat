@@ -1,0 +1,25 @@
+* {margin:0px; padding: 0px;}
+body { font: 16px Verdana; line-height:1.6; background: #fff; }
+
+#header { background: #fff; height:150px; background-image: url(WE-znak.png); background-repeat: no-repeat; background-position: center center; margin: 0; border-bottom: 2px solid whitesmoke;  }
+
+#left { display:block; width:20%; ; float:left; margin-left: 2%; padding:1%; overflow:hidden; border-right: 2px solid whitesmoke; font-family: Roboto, Helvetica, "lucida grande", sans-serif, sans-serif;
+    text-decoration: none;
+    outline: 0;}
+#left ul li {list-style-type:none; padding:0 0 0 10px;}
+
+#left a {
+    color: #4ae;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    outline: 0;
+}
+
+#proces { width:70%;  text-align: justify; float:right; margin-right: 2%; padding:1%; overflow:hidden; }
+
+img{
+    max-width:20%;
+    max-height:20%;
+}

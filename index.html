@@ -8,6 +8,7 @@
         <meta name="keywords" content="" />
 		<link type="text/css" rel="stylesheet" href="style.css"/>
      <link href="lightbox2-master/lightbox2-master/dist/css/lightbox.css" rel="stylesheet">
+    
             <title>Procesy Dziekanat WE</title>
   </head>
   <body>
@@ -21,32 +22,35 @@
        <div id="left" >
            <div id="navigate">
                <h3>Lista procesów</h3>
-               <ul>   
+               <ul id="linki">   
     
-                   <li><a href="stypendium.html">Złożenie podania o stypendium</a></li>
-                   <li><a href="zapomoga.html">Złożenie podania o zapomogę</a></li>
-                   <li><a href="transfer.html">Złożenie podania o transfer ocen</a></li>
-                   <li><a href="dyplomPrzedluzenie.html">Przedłużenie pracy dyplomowej</a></li>
-                   <li><a href="umorzenie.html">Złożenie podania o umorzenie</a></li>
-                   <li><a href="1stopien.html">Rejestracja na studia 1 stopnia</a></li>
-                   <li><a href="2stopien.html">Rejestracja na studia 2 stopnia</a></li>
-                   <li><a href="zajecia.html">Zapis na zajęcia</a></li>
-                   <li><a href="wznowienie.html">Złożenie podania o wznowienie studiów</a></li>
-                   <li><a href="naukowe.html">Złożenie podania o stypendium naukowe/sportowe/artystyczne</a></li>
-                   <li><a href="socjalne.html">Złożenie podania o stypendium socjalne</a></li>
-                   <li><a href="przeniesienie.html">Złożenie podania o przeniesienie na inny wydział/kierunek</a></li>
-                   <li><a href="rankingowa.html">Tworzenie list rankingowych</a></li>
-                   <li><a href="dyplom.html">Proces dyplomowania</a></li>
-                   <li><a href="deklaracja.html">Złożenie deklaracji na semestr akademicki</a></li>
-                   <li><a href="specjalnosc.html">Wybór specjalności</a></li>
+                   <li><button onclick="stypendium()">Złożenie podania o stypendium</button></li>
+                   <li><button onclick="naukowe()">Złożenie podania o stypendium za wyniki w nauce</button></li> 
+                   <li><button onclick="sportowe()">Złożenie podania o stypendium za osiągnięcia naukowe / sportowe / artystyczne/</button></li>
+                   <li><button onclick="niepelnosprawni()">Złożenie podania o stypendium dla osób  niepełnosprawnych</button></li>
+                   <li><button onclick="socjalne()">Złożenie podania o stypendium socjalne</button></li>
+                   <li><button onclick="zapomoga()">Złożenie podania o zapomogę</button></li>
+                   <li><button onclick="stopien1()">Rejestracja na studia 1 stopnia</button></li>
+                   <li><button onclick="stopien2()">Rejestracja na studia 2 stopnia</button></li>
+                   <li><button onclick="warunek()">Złożenie podania o warunkowe przyjęcie na studia</button></li>
+                   <li><button onclick="transfer()">Złożenie podania o transfer ocen / uznanie oceny</button></li>  
+                   <li><button onclick="umorzenie()">Złożenie podania o umorzenie</button></li>
+                   <li><button onclick="zajecia()">Zapis na zajęcia</button></li>
+                   <li><button onclick="wznowienie()">Złożenie podania o wznowienie studiów</button></li>
+                   <li><button onclick="przeniesienie()">Złożenie podania o przeniesienie na inny wydział / kierunek</button></li>
+                   <li><button onclick="dyplom()">Proces dyplomowania</button></li>
+                   <li><button onclick="dyplomPrzedluzenie()">Przedłużenie pracy dyplomowej</button></li>
+                   <li><button onclick="deklaracja()">Złożenie deklaracji na semestr akademicki</button></li>
+                   <li><button onclick="specjalnosc()">Wybór specjalności</button></li>
                </ul>
            </div>
       </div>
       <div id="proces">
-    
-        Tu będzie jakieś info dla studentów
+          Tu będzie jakieś info dla studentów
+
       </div>
       
+            <script src="script.js"></script>
             <script src="lightbox2-master/lightbox2-master/dist/js/lightbox-plus-jquery.js"></script>
 
       
